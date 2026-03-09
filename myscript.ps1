@@ -1,0 +1,7 @@
+cd -Path "C:\dsweek4"
+>> Add-Content -Path "students.txt" -Value "Portia","Irene","Ashley"
+>> Add-Content -Path "C:\dsweek4\students.txt" -Value "Wendy","Doniku","Sariyu"
+>> Get-Content -Path "C:\dsweek4\students.txt"
+>> Get-Process | Out-File -FilePath "C:\dsweek4\processes.txt"
+>> PS C:\dsweek4> Start-Process notepad.exe -ArgumentList "C:\dsweek4\students.txt"
+>> PS C:\dsweek4>  Start-Process notepad.exe -ArgumentList "C:\dsweek4\processes.txt"
